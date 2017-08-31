@@ -1,0 +1,540 @@
+/*This is my 218 CONTACT PAGE using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* This is the beginning of my CONTACT PAGE CSS */
+
+body, html {
+    width: 100%;
+    height: 100%;
+    background-image: url("images/linen.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+p, a {
+    font-family: 'Roboto Mono', monospace;
+}
+
+header {
+    width: 100%;
+    height: 110px;
+    top: 0px;
+    position: fixed;
+    background-image: url("images/linen.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    z-index: 4;
+}
+
+header h1 {
+    display: block;
+    margin-left: 183px;
+    margin-top: 50px;  
+}
+
+
+
+h1 {
+   font-family: 'Homemade Apple', cursive;
+    color: black;
+    display: block;
+    width: 650px;
+    height: 30px;
+    padding: 10px;
+    font-size: 50px;
+}
+
+html, body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+    
+}
+
+
+nav {
+    position: fixed;
+    margin-left: 280px;
+    width: 850px;
+    top: 50px;
+    text-align: right; 
+}
+
+nav li {
+    display: inline;
+    margin-left: 10px;
+}
+
+nav a:link{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:active{
+    text-decoration: none;
+    color: gray;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: gray;
+}
+
+nav a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+.header_text {
+    text-decoration: none;
+}
+
+#home_icon {
+    font-size: 19px;
+}
+
+#process_background {
+    width: 1053px;
+    margin: auto;
+    height: auto;
+    background-image: url(images/linen.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+}
+
+
+
+#portfolio_background {
+    width: 1200px;
+    margin: auto;
+    height: auto;
+    background-image: url(images/linen.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+}
+
+.contact-text, .contact-icon {
+	display: inline;
+}
+
+.portfolio_image_row {
+    width: 1051px;
+    height: 200px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card_image_row {
+    width: 1051px;
+    height: 300px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.portfolio_image_container {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    box-shadow: 10px 10px 5px #888888;
+    background-color: black;
+}
+
+.portfolio_image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.overlay {
+  display: flex;
+  justify-content: center;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 250px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  
+}
+
+.portfolio_image_container:hover .portfolio_image {
+  opacity: 0.3;
+}
+
+.portfolio_image_container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 12px;
+    line-height: 1.5em;
+  padding: 10px 10px;
+}
+
+.text a {
+  display: block;
+  width: 200px;
+  height: 200px;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+ justify-content: center;
+}
+
+
+.intro {
+    width: 555px;
+    height: auto;
+    margin-left: 187px;
+    top: 100px;
+    position: fixed;
+    
+}
+
+.bio {
+    line-height: 1.6em;
+    font-size: 14px;
+}
+
+hr {
+    margin: auto;
+    width: 1047px;
+    border: 2px solid black;
+    position: relative;
+    
+}
+
+.section_title {
+    font-family: 'Homemade Apple', cursive;
+    margin-top: 55px;
+    margin-bottom: 16px;
+    margin-right: -30px;
+    display: block;
+    width: 277px;
+    height: 20px;
+    padding: 10px;
+    padding-left: 0px;
+    color: black;
+    font-size: 20px;
+
+}
+
+.process_title { 
+    font-family: 'Homemade Apple', cursive;
+    display: block;
+    width: 277px;
+    height: 20px;
+    padding: 10px;
+    padding-left: 0px;
+    color: black;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+
+}
+
+.ux_title {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.rotate {
+
+/* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+
+video {
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.video_container {
+}
+
+.zoom_container {
+    cursor:move;
+    width: 1053px;
+    height: 500px;
+    box-shadow: 10px 10px 5px #888888;
+}
+#screen {
+    margin: auto;
+    overflow:hidden;
+    width:1054px;
+    height: 500px;
+}
+
+.process_row {
+    width: 1051px;
+    height: 550px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+
+.process_ux_row {
+    width: 1051px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.process_ux_image_container {
+    width: 1053px;
+    height: 339px;
+    margin: auto;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.process_ux_images {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 77px;
+    
+    
+}
+
+.card_image {
+    width: 300px;
+    height: 300px;
+    
+}
+
+.card_caption {
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+
+object {
+    width: 1053px;
+    height: 800px; 
+}
+
+
+figcaption {
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.first {
+    margin-top: 360px;
+    margin-bottom: -24px;
+}
+
+.first_process {
+    margin-top: 476px;
+    margin-bottom: -22px;
+}
+
+.first_process_ux {
+    margin-top: 560px;
+    margin-bottom: -24px;
+}
+
+.last {
+    margin-bottom: 100px;
+}
+
+#marilyn_trio {
+    width: 1052px;
+    
+    
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    bottom: 10px;
+    margin-bottom: -10px;
+    position: fixed;
+    background-color: black;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+footer h1 {
+    color: white;
+    display: block;
+    font-size: 20px;
+    padding-top: 20px;
+    width: 200px;
+    margin-left: 20px;
+}
+
+footer a {
+    color: white;
+    display: block;
+    height: 20px;
+    margin: 20px;
+    text-decoration: none;
+    float: right;
+}
+
+footer a:hover {
+    color: gray;
+}
+
+.prev, .next {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.bottom_row {
+    height: 100px;
+}
+
+.bottom_row_ux {
+    height: 100px;
+    margin-top: 0px;
+}
+
+.prev {
+    float: left;
+    
+}
+
+.next {
+    float: right;
+}
+
+.inline_link {
+   text-decoration: none;
+    color: black; 
+}
+
+.inline_link:hover {
+   text-decoration: none;
+    color: gray; 
+}
+
+
+#aiga_website_link {
+    display: flex;
+    
+    align-items: center;
+    width: 260px;
+    height: 50px;
+    background-color: #238a74;
+    padding-left: 10px;
+    
+    text-decoration: none;
+    color: white;
+    
+    margin-bottom: 0px;
+    margin-top: 80px;
+    
+    
+}
+
+
+#aiga_website_link:hover {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+    
+/*@media (max-width: 768px) {
+    
+    .center{
+        max-width: 94%;
+        /*bottom: 50px;*/
+        left:16 px;
+        margin: 50px auto;
+		
+        /*border: 4px dashed purple; /* the center container will have a dashed purple border when the screen gets smaller */
+    }
+}*/
