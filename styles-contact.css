@@ -81,6 +81,7 @@ header {
 header h1 {
     display: block;
     width: 75%;
+    min-width: 800px;
     position: fixed;
     left: 50%;
     margin-left: -37.5%;
@@ -109,20 +110,34 @@ html, body {
 
 nav {
     position: fixed;
-    margin-left: 280px;
-    width: 850px;
-    top: 50px;
-    text-align: right; 
+    width: 75%;
+    left: 50%;
+    margin-left: -37.5%;
+    max-width: 1057px;
+    min-width: 800px;
+    height: 45px;
+    top:0px;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 2%;
 }
+
+
 
 nav li {
     display: inline;
-    margin-left: 10px;
+    
 }
 
 nav a:link{
     text-decoration: none;
     color: black;
+    display: block;
+    height: 20px;
+    margin-left: 20px;
+    
 }
 
 nav a:active{
@@ -149,14 +164,34 @@ nav a:visited{
 }
 
 #process_background {
-    width: 1053px;
-    margin: auto;
+    width: 75%;
+    left: 50%;
+    margin-left: -37.5%;
+    max-width: 1057px;
+    min-width: 800px;
     height: auto;
     background-image: url(images/linen.png);
     background-repeat: repeat;
     background-attachment: fixed;
     position: relative;
     z-index: 2;
+    
+}
+
+#process_ux_background {
+    width: 75%;
+    left: 50%;
+    margin-left: -37.5%;
+    max-width: 1057px;
+    min-width: 800px;
+    padding-bottom: 50px;
+    height: auto;
+    background-image: url(images/linen.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+    
 }
 
 
@@ -166,7 +201,7 @@ nav a:visited{
     left: 50%;
     margin-left: -37.5%;
     height: auto;
-    top: 100px;
+    top: 40px;
     background-image: url(images/linen.png);
     background-repeat: repeat;
     background-attachment: fixed;
@@ -183,13 +218,13 @@ nav a:visited{
     min-width: 800px;
     height: 200px;
     display: flex;
-    margin: auto;
     align-items: center;
     justify-content: space-between;
 }
 
 .card_image_row {
-    width: 1051px;
+    max-width: 1051px;
+    min-width: 900px;
     height: 300px;
     display: flex;
     margin: auto;
@@ -258,7 +293,7 @@ nav a:visited{
 .intro {
     width: 555px;
     height: auto;
-    top: 100px;
+    top: 120px;
     position: fixed;
     
 }
@@ -281,8 +316,9 @@ nav a:visited{
 }
 
 hr {
-    margin: auto;
-    width: 1047px;
+    margin-left: 0px;
+    max-width: 1057px;
+    min-width: 900px;
     border: 2px solid black;
     position: relative;
     
@@ -383,7 +419,8 @@ video {
 }
 
 .process_ux_image_container {
-    width: 1053px;
+    max-width: 1053px;
+    min-width: 900px;
     height: 339px;
     margin: auto;
     margin-bottom: 0px;
@@ -431,6 +468,7 @@ figcaption {
 .first_process {
     margin-top: 476px;
     margin-bottom: -22px;
+    width: 1057px;
 }
 
 .first_process_ux {

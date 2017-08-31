@@ -22,6 +22,16 @@
     
 <script src="modernizr.custom.65897.js"></script>
 
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    
+<script >
+        $("ul.mainmenu li").hover( 
+        function( e ) {$(e.currentTarget).children("ul").slideDown("slow");},
+        function( e ) {$(e.currentTarget).children("ul").slideUp("fast");} );
+
+
+</script>
+
 </head>
 
 <body>
@@ -29,12 +39,14 @@
     <header>
 
         <nav>
+         
 			<li><a href="heather_collins_resume.pdf" class=link>
 				<span class="contact-text">Resume</span>
 				<i class="fa fa-file-text" aria-hidden="true"></i> </a></li>
-			<li><a href="mailto:heathermarilyncollins@gmail.com" class=link>
-				<span class="contact-text">Email Me</span>
-				<i class="fa fa-envelope contact-icon" aria-hidden="true"></i> </a></li>
+			<li><a href="#contact.html" class=link>
+				<span class="contact-text">Contact</span>
+				<i class="fa fa-phone-square" aria-hidden="true"></i> </a></li>
+            
 		</nav>
         
         <a class="header_text" href="index.html"><h1>Heather Collins</h1></a>
@@ -64,7 +76,7 @@
         
     <div id="portfolio_background">
         
-    <hr class= "first">
+    <hr class="first">
         
     <div class="portfolio_image_row">
         <p class="section_title">UX Web Design Project</p>
