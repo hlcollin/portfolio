@@ -80,7 +80,10 @@ header {
 
 header h1 {
     display: block;
-    margin-left: 183px;
+    width: 75%;
+    position: fixed;
+    left: 50%;
+    margin-left: -37.5%;
     margin-top: 50px;  
 }
 
@@ -159,9 +162,11 @@ nav a:visited{
 
 
 #portfolio_background {
-    width: 1200px;
-    margin: auto;
+    width: 75%;
+    left: 50%;
+    margin-left: -37.5%;
     height: auto;
+    top: 100px;
     background-image: url(images/linen.png);
     background-repeat: repeat;
     background-attachment: fixed;
@@ -174,7 +179,8 @@ nav a:visited{
 }
 
 .portfolio_image_row {
-    width: 1051px;
+    max-width: 1051px;
+    min-width: 800px;
     height: 200px;
     display: flex;
     margin: auto;
@@ -252,9 +258,20 @@ nav a:visited{
 .intro {
     width: 555px;
     height: auto;
-    margin-left: 187px;
     top: 100px;
     position: fixed;
+    
+}
+
+
+.intro_container {
+    width: 75%;
+    position: fixed;
+    left: 50%;
+    margin-left: -37.5%;
+    height: auto;
+    top: 100px;
+    
     
 }
 
