@@ -173,7 +173,7 @@ nav a:visited{
     background-image: url(images/linen.png);
     background-repeat: repeat;
     background-attachment: fixed;
-    position: relative;
+    position: absolute;
     z-index: 2;
     
 }
