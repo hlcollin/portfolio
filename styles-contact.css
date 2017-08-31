@@ -581,15 +581,45 @@ footer a:hover {
     color: white;
 }
 
+#contact {
+    width: 555px;
+    height: 300px;
+     margin-left: 250px;
+}
+
+.contact_hr {
+    margin-top: 45px;
+}
+
+#contact p {
+    display: block;
+    width: 500px;
+    line-height: 1.6em;
+    margin-bottom: 30px;
+    
+}
+
+
+#picture_of_me {
+    width: 200px;
+   
+    margin-top: 56px;
+
+}
+
+.contact_intro {
+    margin-top: 30px;
+}
+
     
 /*@media (max-width: 768px) {
     
     .center{
         max-width: 94%;
-        /*bottom: 50px;*/
+        bottom: 50px;
         left:16 px;
         margin: 50px auto;
 		
-        /*border: 4px dashed purple; /* the center container will have a dashed purple border when the screen gets smaller */
+        border: 4px dashed purple; /* the center container will have a dashed purple border when the screen gets smaller
     }
 }*/
