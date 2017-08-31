@@ -301,11 +301,11 @@ nav a:visited{
 
 .intro_container {
     width: 75%;
-    position: fixed;
     left: 50%;
     margin-left: -37.5%;
     height: auto;
     top: 100px;
+    position: fixed;
     
     
 }
